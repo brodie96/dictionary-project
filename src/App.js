@@ -6,7 +6,6 @@ export default function App() {
       <header className="App-header">
         <div>
           <h1>Hello World</h1>
-          <h2>my name is rebecca</h2>
         </div>
       </header>
     </div>
