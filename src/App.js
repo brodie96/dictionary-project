@@ -14,7 +14,9 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          Coded by Rebecca Brodie, hosted by GitHub.
+          Coded by{" "}
+          <a href="https://leafy-begonia-db17ce.netlify.app">Rebecca Brodie</a>,
+          hosted by <a href="https://github.com/dashboard">GitHub</a>.
         </footer>
       </div>
     </div>
