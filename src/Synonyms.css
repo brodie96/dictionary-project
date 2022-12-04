@@ -1,0 +1,10 @@
+.Synonyms ul {
+  list-style: none;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-font-color);
+  font-size: 16px;
+}
+.Synonyms li {
+  display: inline-block;
+  padding: 10px;
+}

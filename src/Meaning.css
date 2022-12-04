@@ -1,0 +1,24 @@
+.Meaning h3 {
+  font-size: 36px;
+  font-family: var(--main-font-family);
+  line-height: 1.5;
+  color: var(--main-font-color);
+  text-transform: capitalize;
+}
+.Meaning .Definition {
+  padding: 10px;
+}
+
+.Meaning .Title {
+  margin-right: 5px;
+  font-family: var(--main-font-family);
+  font-size: 32px;
+  color: var(--main-font-color);
+}
+
+.Meaning .Description {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  color: var(--secondary-font-color);
+  font-weight: 450;
+}

@@ -1,0 +1,24 @@
+.Phonetics {
+  padding: 10px;
+}
+.Phonetics span {
+  font-family: var(--secondary-font-family);
+  margin-right: 10px;
+  color: var(--secondary-font-color);
+}
+
+.Phonetics a {
+  color: var(--secondary-font-color);
+  text-decoration: none;
+  border: 1px solid #685454;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
+}
+
+.Phonetics a:hover {
+  color: var(--main-font-color);
+  border: 1px solid #ea8a8a;
+  transition: all 100ms ease-in-out;
+}

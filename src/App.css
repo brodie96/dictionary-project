@@ -1,15 +1,37 @@
+:root {
+  --main-bg-color: #ebd5d5;
+  --secondary-bg-color: #f2f2f2;
+  --main-font-color: #ea8a8a;
+  --secondary-font-color: #685454;
+  --main-font-family: "Nerko One", sans-serif;
+  --secondary-font-family: "Rubik", sans-serif;
+}
+body {
+  background-color: var(--main-bg-color);
+}
+
 .App-header {
   text-align: center;
+  padding: 10px;
   margin: 30px 0;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: midnightblue;
+}
+.App-header h1 {
+  font-size: 64px;
+  color: var(--main-font-color);
+  font-family: var(--main-font-family);
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
   font-size: 12px;
-  color: mediumaquamarine;
+  color: var(--secondary-font-color);
+}
+.App-footer a {
+  color: var(--secondary-font-color);
+  text-decoration: none;
+}
+.App-footer a:hover {
+  color: var(--main-font-color);
+  transition: all 100ms ease-in-out;
 }

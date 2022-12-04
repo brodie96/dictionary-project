@@ -1,0 +1,20 @@
+.Examples {
+  padding: 10px;
+}
+
+.Examples .Heading {
+  font-family: var(--main-font-family);
+  font-size: 24px;
+
+  color: var(--secondary-font-color);
+  margin-right: 5px;
+}
+
+.Examples .Example {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  opacity: 0.9;
+  font-style: italic;
+  color: var(--secondary-font-color);
+  font-weight: 400;
+}
