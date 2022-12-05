@@ -9,7 +9,10 @@
 body {
   background-color: var(--main-bg-color);
 }
-
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-header {
   text-align: center;
   padding: 10px;
